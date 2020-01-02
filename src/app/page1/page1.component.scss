@@ -1,0 +1,45 @@
+.btn12 {
+  padding-right: 13px !important;
+}
+// .footer{
+//     height: 150px;
+//     background-color:  #16e766;
+//     position: fixed;
+//     bottom: 0;
+//     right:0;
+//     width: 100%;
+//     padding: 5px;
+//     background-color: #cae8ca;
+//     border: 2px solid #4CAF50;
+// }
+.sec {
+  position: relative;
+//   bottom: 0;
+  position: sticky;
+//   width: 60%;
+   bottom: 0;
+  border: 2px solid #ffffff;
+  background-color: #2579f8e0;
+  margin: auto;
+}
+.h1-footer {
+  color: white;
+}
+.images {
+  height: 150px;
+}
+
+// .backdrop {
+//   background-color: rgba(60, 80, 136, 0.445);
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100vh;
+// }
+
+@media (min-width: 320px) and (max-width: 768px) {
+ .sec{
+     height: 20%;
+ }
+}

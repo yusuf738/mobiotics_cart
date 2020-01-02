@@ -1,0 +1,92 @@
+<h1 class="text-center">LIST OF ITEMS</h1>
+
+<div class="container mt-5">
+    <div class="row" *ngFor="let products of product_details_array; let i= index ">
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 m-auto">
+            <img src={{products.Image}} class="fixwidth images" />
+            <div>{{products.Offer_text}}</div>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8  total-text">
+            <h3 style=color:green; font-weight="bold">{{products.Brand_name}}</h3>
+            <span>{{products.Product_name}}</span>
+            <div>{{products.Quantity}}</div>
+            <div>MRP {{products.MRP}}</div>
+            <div style=font-weight:bold>Rs {{products.Price}}</div>
+            <span class="pr-2"><button class="btn btn-primary">ADD CART</button></span>
+            <span class="pr-2">
+                <button class="pr-2 btn btn-success btn12" (click)="incrementItem(i)">+</button>
+                <span class="value pr-2 pl-2">{{products.addAndLessQuantity}}</span>
+                <button class="pr-2 btn btn-success btn12" (click)="decrementItem(i)">-</button></span>
+        </div>
+        <div class="col-12">
+
+            <hr />
+        </div>
+    </div>
+
+</div>
+
+<div class="container sec">
+    <!-- <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
+            <h4 class="h1-footer ml-3 mt-3">Qty {{itemQuantity}}</h4>
+            <h4 class="h1-footer ml-3 mt-3">Total {{itemTotal}}</h4>
+        </div>
+        <div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 ">
+            <button class="btn btn-success " data-toggle="modal" (click)="checkOut()">Check Out</button>
+            </div>
+        </div> -->
+    <div class="row">
+        <div class="col-5">
+            <h6 class="h1-footer  mt-3">Qty {{itemQuantity}}</h6>
+            <h6 class="h1-footer  mt-3">Total {{itemTotal}}</h6>
+        </div>
+
+            <div class="col-7 mt-3">
+                <button class="btn btn-success" data-toggle="modal" (click)="checkOut()">Check Out</button>
+            </div>
+    </div>
+    <!-- </div> -->
+
+</div>
+
+
+
+
+<div class="backdrop" [ngStyle]="{'display':display}"></div>
+
+<div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':display}">
+
+    <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <!-- <button type="button" class="close" aria-label="Close" (click)="onCloseHandled()"></button> -->
+                <!-- <span
+                aria-hidden="true">&times;</span> -->
+                <h4>
+                    <p style=color:green;>Transaction successfull</p>
+                </h4>
+
+            </div>
+
+            <div class="modal-body">
+                <h3 style=color:green;>Total Price<h4> {{itemTotal}}</h4>
+                </h3>
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-danger" (click)="checkOut()">Close</button>
+
+            </div>
+
+        </div><!-- /.modal-content -->
+
+    </div><!-- /.modal-dialog -->
+
+</div><!-- /.modal !-->

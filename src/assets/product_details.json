@@ -1,0 +1,112 @@
+[
+    {
+        "_id": "01",
+        "Brand_name": "Aachi",
+        "Product_name": "Chilly Powder",
+        "Quantity": "500 g",
+        "Price": 54,
+        "MRP": "60",
+        "Image": "../assets/images/aachi-chilly-powder.jpeg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity":0 
+    },
+    {
+        "_id": "02",
+        "Brand_name": "Amul",
+        "Product_name": "Ice Cream",
+        "Quantity": "500 ML",
+        "Price": 180,
+        "MRP": "200",
+        "Image": "../assets/images/amul-ice-cream-king-alphonso.jpg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    },
+    {
+        "_id": "03",
+        "Brand_name": "Cavins",
+        "Product_name": "Milk",
+        "Quantity": "1 L",
+        "Price": 45,
+        "MRP": "50",
+        "Image": "../assets/images/cavins.jpg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    },
+    {
+        "_id": "04",
+        "Brand_name": "Spizepep",
+        "Product_name": "Chaat masala",
+        "Quantity": "500 g",
+        "Price": 45,
+        "MRP": "50",
+        "Image": "../assets/images/chaat-masala-powder-500x500.jpeg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    },
+    {
+        "_id": "05",
+        "Brand_name": "Nature Land",
+        "Product_name": "Rock Salt",
+        "Quantity": "1 kg",
+        "Price": 36,
+        "MRP": "40",
+        "Image": "../assets/images/organic-rock-salt-powder-500x500.jpg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    },
+    {
+        "_id": "06",
+        "Brand_name": "Prakash",
+        "Product_name": "special Tea",
+        "Quantity": "500 g",
+        "Price": 27,
+        "MRP": "30",
+        "Image": "../assets/images/prakash-special-tea-500x500.jpeg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    },
+    {
+        "_id": "07",
+        "Brand_name": "Skyplus",
+        "Product_name": "Sugar",
+        "Quantity": "1 Kg",
+        "Price": 63,
+        "MRP": "70",
+        "Image":"../assets/images/skyplus-sugar-500x500.jpeg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    },
+    {
+        "_id": "08",
+        "Brand_name": "TATA",
+        "Product_name": "Dal",
+        "Quantity": "1 kg",
+        "Price": 225,
+        "MRP": "250",
+        "Image": "../assets/images/tata dal.jpg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    },
+    {
+        "_id": "09",
+        "Brand_name": "RajLaxshmi",
+        "Product_name": "Tumeric Powder",
+        "Quantity": "500 g",
+        "Price": 72,
+        "MRP": "80",
+        "Image": "../assets/images/turmeric-powderjpeg.jpeg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    },
+    {
+        "_id": "10",
+        "Brand_name": "Yardley",
+        "Product_name": "Face Powder",
+        "Quantity": "250 g",
+        "Price": 135,
+        "MRP": "150",
+        "Image":"../assets/images/yardley-500x500.jpg",
+        "Offer_text": "10% OFF",
+        "addAndLessQuantity": 0
+    }
+]
